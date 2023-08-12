@@ -22,7 +22,7 @@ Use the oneMKL tool to accelerate and optimize the **FFT algorithm**.
     - download FFTW libs from **fftw.org**.
     - use the default env in visual studio.
     - make programming as below.![Alt text](image.png)  
-    - use the chrono lib to compute the time betwenn the beginning of the execute and after being executed.
+    - use the **chrono** lib to compute the time betwenn the beginning of the execute and after being executed.
     - output the consumming time and the result.
     - put all of them into the disk in oneself device.![Alt text](image-3.png)
 3. Use onemkl to do Real to complex FFT programming.  
@@ -34,3 +34,4 @@ at the very beginning, honestly speaking, it's greatly like the step2, but throu
 5. Output the consumming time of step 2 and step 3.  
 In this step, graphics is used to be presented vividly.
 ## Experience from My Own
+First of all, deviding some projects is a good choice to build up this whole projects because of the different compiles. However **namespace** is not working during this project, I do think it's a better choice. I searched the Internet, but did not get any good solution for different compiles in only one project, maybe I have a long way to achieve it. Secondly, **Class** is not no used in this project, but it's of a significant technic for us programmers to have a better understanding. Thirdly, it's so quick through the **oneMKL**, so being widely used is essential in my coding life.
